@@ -1,0 +1,25 @@
+[core]
+  quotepath = false
+
+[alias]
+  co = checkout
+  cob = checkout -b
+  ci = commit
+  st = status
+  br = branch
+  ir = !git rebase -i origin/master
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[difftool "Kaleidoscope"]
+  cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[difftool]
+  prompt = false
+[diff]
+  tool = Kaleidoscope
+[user]
+  name = Zachary Porter
+  email = zporter9@gmail.com
+[github]
+  user = zporter
+  token = WOULDNT_YOU_LIKE_TO_KNOW
