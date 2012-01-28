@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/zporter/Developer/inrfood'
+let g:netrw_dirhist_2='/Users/zporter/Developer/matrixmedia'
+let g:netrw_dirhist_3='/Users/zporter/Developer/matrixmedia/app'
+let g:netrw_dirhist_4='/Users/zporter/Developer/matrixmedia/app/helpers'
+let g:netrw_dirhist_5='/Users/zporter/Developer/matrixmedia'
+let g:netrw_dirhist_6='/Users/zporter/.oh-my-zsh'
+let g:netrw_dirhist_7='/Users/zporter/.oh-my-zsh/plugins'
+let g:netrw_dirhist_8='/Users/zporter/.oh-my-zsh/plugins/bundler'
